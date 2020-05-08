@@ -29,10 +29,10 @@ public class SecretKey {
     }
 
     public void setPrivateKeyBase64(String privateKeyBase64) {
-        this.privateKeyBase64 = privateKeyBase64;
+        SecretKey.privateKeyBase64 = privateKeyBase64;
     }
 
     public void setPublicKeyBase64(String publicKeyBase64) {
-        this.publicKeyBase64 = publicKeyBase64;
+        SecretKey.publicKeyBase64 = publicKeyBase64;
     }
 }
